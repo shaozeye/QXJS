@@ -1,10 +1,10 @@
 /*******************************
 
-    [rewrite_local]
+[rewrite_local]
 
-    ^ https: \/\/api\.gotokeep\.com url script-response-body https:/ / raw.githubusercontent.com / 89996462 / Quantumult - X / main / ycdz / keep.js
+^https:\/\/api\.gotokeep\.com url script-response-body https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/keep.js
 
-    [mitm]
+[mitm] 
 
 hostname = api.gotokeep.com
 
