@@ -1,4 +1,4 @@
-/*
+
 
 [rewrite_local]
 
@@ -8,7 +8,7 @@
 
 hostname = api.gotokeep.com
 
-*/
+
 
 var modifiedBody = $response.body
     .replace(/\"memberStatus":\d+/g, '"memberStatus":1')
