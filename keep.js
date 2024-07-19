@@ -10,5 +10,6 @@ hostname = api.gotokeep.com
 
 */
 
-var modifiedBody = $response.body.replace(/"username":\s*"[^"]*"/, '"username":shaozeye')
-$done({modifiedBody});
+var modifiedBody = $response.body.replace(/"username":\s*"[^"]*"/, '"username":"shaozeye"');
+$done({ body: modifiedBody });
+
