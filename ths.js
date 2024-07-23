@@ -177,6 +177,18 @@ if (url.indexOf(vip) != -1) {
                         "expiretime": 1757123295,
                         "remainDays": 411,
                         "name": "股价预警"
+                    },
+                     {
+                        "endAtStr": "2024-09-02",
+                        "needRemind": 1,
+                        "sort": 52,
+                        "id": "limit_up",
+                        "beginAt": 1714854920,
+                        "endAt": 1725222920,
+                        "fromSid": 269,
+                        "remainDays": 42,
+                        "name": "涨停助手",
+                        "fromProductId": "limit_up"
                     }
                 ],
                 "invalid": [
