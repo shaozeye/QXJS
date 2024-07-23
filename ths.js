@@ -6,7 +6,7 @@
 
 **************************************
 [rewrite_local]
-https:\/\/vaserviece\.10jqka\.com\.cn\/ url script-response-body Demo.js
+https:\/\/vaserviece\.10jqka\.com\.cn\/ url script-response-body https://raw.githubusercontent.com/shaozeye/QXJS/main/ths.js
 
 [mitm]
 hostname = yuqing.kuaicha365.com
