@@ -181,6 +181,8 @@ if (url.indexOf(vip) != -1) {
                      {
                         "endAtStr": "2024-09-02",
                         "needRemind": 1,
+                        "status": 1,
+                        "isBuy": 1,
                         "sort": 52,
                         "id": "limit_up",
                         "beginAt": 1714854920,
