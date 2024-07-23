@@ -136,10 +136,10 @@ if (url.indexOf(vip) != -1) {
                         "needRemind": 1,
                         "sort": 22,
                         "id": "diagnosestock",
-                        "beginAt": 1719593435,
+                        "beginAt": 1714854920,
                         "endAt": 1725222920,
                         "fromSid": 171,
-                        "remainDays": 7,
+                        "remainDays": 42,
                         "name": "手机高级诊股",
                         "fromProductId": "diagnosestock"
                     },
