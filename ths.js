@@ -137,7 +137,7 @@ if (url.indexOf(vip) != -1) {
                         "sort": 22,
                         "id": "diagnosestock",
                         "beginAt": 1719593435,
-                        "endAt": 1722185435,
+                        "endAt": 1725222920,
                         "fromSid": 171,
                         "remainDays": 7,
                         "name": "手机高级诊股",
