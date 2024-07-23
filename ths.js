@@ -132,7 +132,7 @@ if (url.indexOf(vip) != -1) {
                         "fromProductId": "mechanism_detector"
                     },
                     {
-                        "endAtStr": "2024-07-29",
+                        "endAtStr": "2024-09-02",
                         "needRemind": 1,
                         "sort": 22,
                         "id": "diagnosestock",
