@@ -26,7 +26,7 @@ if ($request.url.indexOf("lcs-mobile-cops.adobe.io") != -1) {
   // 修改第二个请求的body
   var objc = {
     "user" : {
-    "has_premium_access" : false,
+    "has_premium_access" : true,
     "location" : "",
     "social_links" : [
 
@@ -66,12 +66,12 @@ if ($request.url.indexOf("lcs-mobile-cops.adobe.io") != -1) {
       "following" : 0,
       "comments" : 0
     },
-    "display_name" : "shaoze ye",
+    "display_name" : "isshaoze ye",
     "creatorPro" : [
 
     ],
     "created_on" : 1710343254,
-    "first_name" : "shaoze",
+    "first_name" : "isshaoze",
     "fields" : [
 
     ],
