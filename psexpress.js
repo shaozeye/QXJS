@@ -9,7 +9,7 @@ https://cc-api-behance.adobe.io/v2/users url script-response-body https://raw.gi
 
 [mitm] 
 
-hostname = lcs-mobile-cops.adobe.io,cc-api-behance.adobe.io/v2/users
+hostname = lcs-mobile-cops.adobe.io,cc-api-behance.adobe.io
 
 */
 
