@@ -25,11 +25,67 @@ if ($request.url.indexOf("lcs-mobile-cops.adobe.io") != -1) {
   $done({ body: JSON.stringify(objc1) });
 } else if ($request.url.indexOf("cc-api-behance.adobe.io") != -1) {
   // 修改第二个请求的body
-  var body = $response.body; 
-  var objc = JSON.parse(body);
+    
+  var objc = {
+    "user" : {
+    "has_premium_access" : false,
+    "location" : "",
+    "social_links" : [
 
-// 修改 has_premium_access 的值
-objc.user.has_premium_access = true;
+    ],
+    "has_social_links" : false,
+    "url" : "#",
+    "country" : "",
+    "company" : "",
+    "sections" : {
+
+    },
+    "images" : {
+      "138" : "https://a5.behance.net/baca2271513757d951122908268261035ffa4a4a/img/profile/avatars/scissors-138.png?cb=264615658",
+      "50" : "https://a5.behance.net/baca2271513757d951122908268261035ffa4a4a/img/profile/avatars/scissors-50.png?cb=264615658",
+      "100" : "https://a5.behance.net/baca2271513757d951122908268261035ffa4a4a/img/profile/avatars/scissors-100.png?cb=264615658",
+      "115" : "https://a5.behance.net/baca2271513757d951122908268261035ffa4a4a/img/profile/avatars/scissors-115.png?cb=264615658",
+      "276" : "https://a5.behance.net/baca2271513757d951122908268261035ffa4a4a/img/profile/avatars/scissors-276.png?cb=264615658",
+      "230" : "https://a5.behance.net/baca2271513757d951122908268261035ffa4a4a/img/profile/avatars/scissors-230.png?cb=264615658"
+    },
+    "city" : "",
+    "last_name" : "ye",
+    "has_default_image" : 1,
+    "links" : [
+
+    ],
+    "twitter" : "",
+    "state" : "",
+    "id" : 1787901279,
+    "occupation" : "",
+    "website" : "#",
+    "adobe_id" : "6D001E2165D21EA00A495C95@AdobeID",
+    "stats" : {
+      "appreciations" : 0,
+      "team_members" : false,
+      "followers" : 0,
+      "views" : 0,
+      "following" : 0,
+      "comments" : 0
+    },
+    "display_name" : "shaoze ye",
+    "creatorPro" : [
+
+    ],
+    "created_on" : 1710343254,
+    "first_name" : "shaoze",
+    "fields" : [
+
+    ],
+    "banner_image_url" : "",
+    "username" : "b8812b63"
+  },
+  "http_code" : 200
+}
+};
+
+
+
 // 返回修改后的数据
 $done({ body: JSON.stringify(objc) });
 } else {
