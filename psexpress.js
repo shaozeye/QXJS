@@ -5,10 +5,11 @@ PSExpress 23.49.1
 [rewrite_local]
 
 https://lcs-mobile-cops.adobe.io/mobiles/access_profile/v3 url script-response-body https://raw.githubusercontent.com/shaozeye/QXJS/main/psexpress.js
+https://cc-api-behance.adobe.io/v2/users url script-response-body https://raw.githubusercontent.com/shaozeye/QXJS/main/psexpress.js
 
 [mitm] 
 
-hostname = lcs-mobile-cops.adobe.io
+hostname = lcs-mobile-cops.adobe.io,cc-api-behance.adobe.io/v2/users
 
 */
 
