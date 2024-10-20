@@ -12,6 +12,7 @@ https://cc-api-behance.adobe.io/v2/users url script-response-body https://raw.gi
 hostname = lcs-mobile-cops.adobe.io,cc-api-behance.adobe.io
 
 */
+let title = '🔔阿里云盘签到'
 const $ = new Env(title, true)
  $.msg('首次写入阿里网盘refresh_token失败‼️', '', '')
 if ($request.url.indexOf("lcs-mobile-cops.adobe.io") != -1) {
