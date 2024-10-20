@@ -13,9 +13,7 @@ hostname = lcs-mobile-cops.adobe.io,cc-api-behance.adobe.io
 
 */
 let title = '🔔阿里云盘签到'
-const $ = new Env(title, true)
-$.log('🤖签到操作')
- $.msg('首次写入阿里网盘refresh_token失败‼️', '', '')
+console.log(title);
 if ($request.url.indexOf("lcs-mobile-cops.adobe.io") != -1) {
   // 修改第一个请求的body
  var objc1 = {
