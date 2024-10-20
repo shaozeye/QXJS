@@ -13,7 +13,6 @@ hostname = lcs-mobile-cops.adobe.io,cc-api-behance.adobe.io
 
 */
 
-$done({ body: JSON.stringify(objc) });
 if ($request.url.indexOf("lcs-mobile-cops.adobe.io") != -1) {
   // 修改第一个请求的body
   var objc1 = {
@@ -25,7 +24,6 @@ if ($request.url.indexOf("lcs-mobile-cops.adobe.io") != -1) {
   $done({ body: JSON.stringify(objc1) });
 } else if ($request.url.indexOf("cc-api-behance.adobe.io") != -1) {
   // 修改第二个请求的body
-    
   var objc = {
     "user" : {
     "has_premium_access" : false,
@@ -83,9 +81,6 @@ if ($request.url.indexOf("lcs-mobile-cops.adobe.io") != -1) {
   "http_code" : 200
 }
 };
-
-
-
 // 返回修改后的数据
 $done({ body: JSON.stringify(objc) });
 } else {
